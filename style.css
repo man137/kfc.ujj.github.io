@@ -1,0 +1,817 @@
+*{
+    padding: 0;
+    margin:0;
+box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    
+}
+
+#main{
+    height: 110%;
+    width: 100%;
+    background-color: #EF4325;
+}
+#h1 h1{
+    font-size: 60px;
+    padding: 40px 160px;
+    font-family: serif;
+    font-weight: bolder;
+    font-style: italic;
+    color: whitesmoke;
+}
+#h1 h3{
+    font-size: 50px;
+    font-family: Gilroy;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    color: white;
+    letter-spacing: 2px;
+}
+#h1 h5{
+    position: absolute;
+    height: 60px;
+    width: 280px;
+    color: white;
+    font-weight: 100;
+    font-family: gilroy;
+    top: 53%;
+    left: 10%;
+}
+#h1 button{
+    height: 55px;
+    width: 310px;
+    font-size: 30px;
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    border-radius: 50px;
+    background-color: #EF4325;
+    color: white;
+    border: 1px #fff solid;
+    cursor: pointer;
+}
+#h1 button:hover{
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)5s;
+}
+.nav{
+    height: auto;
+    position: absolute;
+    top: 8%;
+    left: 60%;
+}
+.nav h3{
+    position: relative;
+    font-size: 20px;
+    font-family: Gilroy;
+    font-weight: 100;
+
+}
+.acc i{
+    font-size: 50px;
+display: inline-block;
+padding-right: 10px;
+padding-top: 10px;
+position: absolute;
+top: 5%;
+left: 86%;
+
+color: #000;
+
+}
+#man{
+    top: 5%;
+    left: 93%;
+    position:absolute;
+}
+.low img {
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    z-index: 999999999999999999999;
+    transform: translate(-50%, -50%);
+    transform: rotate(-10deg);
+    height: 60%;
+}
+.low img:hover{
+    cursor: pointer;
+}
+#jin{
+    height: 30%;
+    position: absolute;
+    top: 50%;
+    transform: rotate(15deg);
+    left: 65%;
+}
+#coke{
+    height: 50%;
+    top: 30%;
+    left: 38%;
+    transform: rotate(-15deg);
+    z-index: 1;
+}
+#mail{
+    border-radius: 55%;
+    height: 30%;
+    transform: rotate(-10deg);
+    position: absolute;
+    left: 70%;
+top: 13%;
+height: 200px;
+width: 200px;
+background-color: whitesmoke;
+overflow: hidden;
+}
+#mail h2{
+    font-size: 35px;
+    top: 28%;
+    position: relative;
+    left: 15%;
+    color: red;
+    cursor: pointer;
+}
+#menus{
+    height: 25%;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    top: 58%;
+}
+#menus button{
+    transform: translate(-50%, -50%);
+    height: 50px;
+    width: 210px;
+    position: relative;
+    top: -50%;
+    left: 50%;
+    border-radius: 50px;
+    background-color: gold;
+    font-size: 30px;
+    color: white;
+    font-family: gilroy;
+}
+#menus button:hover{
+    background-color: #EF4325;
+    color: black;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)5s;
+    cursor: pointer;
+}
+#menus img{
+    height: 50%;
+    position: relative;
+    top: 25%;
+    left: -10%;
+    margin: 19px;
+}
+
+#menus h3{
+    font-family: coax;
+    font-size: 15px;
+    position: absolute;
+    left: 10%;
+    top: 82%;
+}
+#menus h1{
+    position: absolute;
+    font-family: coax;
+    font-size: 15px;
+left: 20%;
+top: 82%;
+}
+#menus h2{
+position: absolute;
+    font-family: coax;
+    font-size: 15px;
+left: 28%;
+top: 82%;
+}
+#menus p{
+    position: absolute;
+    font-family: coax;
+    font-size: 15px;
+left: 36%;
+top: 82%;
+}
+#menus h4{
+    position: absolute;
+    font-family: coax;
+    font-size: 15px;
+    top: 82%;
+    left: 46%;
+}
+#menus h6{
+    position: absolute;
+    font-family: coax;
+    font-size: 15px;
+    top: 82%;
+    left: 56%;
+}
+#menus h5{
+    position: absolute;
+    font-family: coax;
+    font-size: 15px;
+    top: 82%;
+    left: 66%;
+}
+.line h2{
+    position: absolute;
+    font-family: coax;
+    font-size: 15px;
+    top: 106%;
+    left: 74%;
+}
+.line h3{
+    position: absolute;
+    font-family: coax;
+    font-size: 15px;
+    top: 106%;
+    left: 84%;   
+}
+#two{
+    height: 100%;
+    width: 100%;
+    background-color: #EFE2D7;
+}
+#cred{
+    display: flex;
+    overflow: hidden;
+}
+#one{
+    height: 270px;
+    width: 470px;
+    background-image: linear-gradient(to bottom, white, rgba(0, 0, 0, 0.395),white);
+   border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 30px;
+    
+}
+#one h2{
+    font-size: 35px;
+    margin: 10px 20px;
+    text-transform: uppercase;
+    font-family: Gilroy;
+    font-weight: 700;
+}
+#one p{
+    font-size: 15px;
+    font-family: gilroy;
+    font-weight: 100;
+    margin-left: 20px;
+
+}
+#one h3{
+    font-size: 25px;
+    font-weight: 900;
+    color: red;
+margin-left: 20px;
+text-transform: uppercase;
+font-family: gilroy;
+margin-top: 20px;
+}
+
+.burger{
+    height: 200px;
+    width: 200px;
+
+    position: relative;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px black;
+    background-image: linear-gradient(to bottom, chartreuse, black, red);
+    top: -64%;
+    right: -48%;
+}
+.burger img{
+    height: 75%;
+    top: 10%;
+    position: relative;
+    left: -30%;
+}
+.im{
+    position: absolute;
+    top: 120%;
+    height: 10%;
+    left: 25%;
+}
+.burger img:hover{
+    height: 80%;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+#to{
+height: 270px;
+    width: 470px;
+    background-color: #EF4325;
+    margin-top: 100px;
+    border-radius: 10px;
+
+    margin-left: 30px;
+}
+#to h1{
+    color: whitesmoke;
+    margin-left: 35px;
+    margin-top: 10px;
+    font-family: gilroy;
+}
+#to h3{
+    font-size: 20px;
+    margin: 10px 20px;
+    font-family: gilroy;
+    font-weight: 100;
+    color: white;
+}
+#to h4{
+    font-family: gilroy;
+    margin: 10px 20px;
+    font-weight: 600;
+    color: #fff;
+    font-size: 30px;
+}
+.circle img{
+    height: 55%;
+top: 30%;
+left: -10%;
+position: relative;
+}
+.circle img:hover{
+    height: 60%;
+    cursor: pointer;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+.circle{
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(to bottom, black, white, black);
+    box-shadow: 5px 5px 5px black;
+    border-radius: 50%;
+    position: relative;
+    top: -67%;
+    left: 50%;
+}
+
+
+#three{
+    height: 270px;
+    width: 470px;
+    background-image: linear-gradient(to bottom, white, rgba(255, 0, 0, 0.295), rebeccapurple);
+    display: flex;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+#three h1{
+font-size: 35px;
+font-family: gilroy;
+font-weight: 600;
+color: black;
+margin: 10px 20px;
+}
+.circ{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom, aqua, rgba(0, 0, 255, 0.338), white);
+    top: 5%;
+    position: relative;
+}
+.circ img{
+    height: 80%;
+    position: relative;
+    top: 30%;
+    left: -20%;
+    overflow: hidden;
+}
+.circ img:hover{
+    height: 85%;
+    cursor: pointer;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)2s;
+}
+#least{
+    display: flex;
+}
+.long{
+    height: 270px;
+    width: 45%;
+    margin-left: 3%;
+    background-image: linear-gradient(to bottom, white, rgba(255, 255, 255, 0.151),white);
+    margin-top: 3%;
+}
+.small{
+    height: 270px;
+    width: 45%;
+    margin-left: 3%;
+    background: rgb(254, 251, 251);
+    margin-top: 3%;
+}
+.long h1{
+    font-size: 35px;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-family: gilroy;
+    font-weight: 600;
+}
+.gola{
+    height: 250px;
+    width: 250px;
+    background-image: linear-gradient(to bottom, azure, rgba(0, 0, 0, 0.351), red);
+    position: relative;
+    top: -65%;
+    left: 58%;
+    border-radius: 50%;
+}
+.gola img{
+    height: 70%;
+    border-radius: 20px;
+    position: relative;
+    top: 15%;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 50%;
+    left: -15%;
+}
+
+.long button
+{
+    transform: translate(-50%, -50%);
+    height: 50px;
+    width: 250px;
+    position: relative;
+    top: 20%;
+    left: 20%;
+    border-radius: 50px;
+    background-color: red;
+    font-size: 20px;
+    color: white;
+    font-family: gilroy;
+}
+.long button:hover{
+    transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+    background: rgba(0, 0, 0, 0.592);
+    color: #EF4325;
+    cursor: pointer;
+}
+.small h1{
+    font-size: 35px;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-family: gilroy;
+    font-weight: 600;
+}
+
+.small button
+{
+    transform: translate(-50%, -50%);
+    height: 50px;
+    width: 210px;
+    position: relative;
+    top: 35%;
+    left: 20%;
+    border-radius: 50px;
+    background-color: red;
+    font-size: 20px;
+    color: white;
+    font-family: gilroy;
+}
+.gol{
+    height: 250px;
+    width: 250px;
+    background-image: linear-gradient(to bottom, pink, red,white);
+    border-radius: 50%;
+    position: relative;
+    top: -50%;
+    left: 55%;
+}
+.gol img{
+    height: 80%;
+    left: -20%;
+    top: 5%;
+    position: relative;
+}
+#jee{
+    height: 145%;
+    width: 100%;
+    background-color: #EFE2D7;
+}
+.mee{
+    height: 280px;
+    width: 100%;
+    background-color: #F5AF34;
+    position: relative;
+    top: 10%;
+}
+.mee h1{
+    position: absolute;
+    letter-spacing: 3px;
+    left: 65%;
+font-size: 30px;
+font-family: gilroy;
+color: white;
+height: auto;
+margin-top: 30px;
+
+}
+#apple{
+    cursor: pointer;
+    position: absolute;
+    left: 60%;
+    margin-top: 170px;
+    background-color: black;
+    width: 15%;
+    height: 60px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+}
+#play{
+    cursor: pointer;
+    position: absolute;
+    left: 78%;
+    margin-top: 170px;
+    background-color: black;
+    width: 15%;
+    height: 60px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+}
+.red{
+    overflow: hidden;
+    height: 360px;
+    width: 210px;
+    background-color: #A2070B;
+    z-index: 9999999999999999999999999;
+position: relative;
+top: -12%;
+left: 20%;
+border-radius: 10px;
+box-shadow: 15px 15px 15px black;
+}
+.red img{
+    height: 30%;
+    border-radius: 50%;
+    top: 2%;
+    left: 25%;
+    position: relative;
+
+}
+.red button{
+    height: 50px;
+    width: 170px;
+    background-color: #F5AF34;
+    color: white;
+    position: relative; 
+    top: 5%;
+    left: 10%;
+    border-radius: 50px;
+
+}
+.red h3{
+    font-size: 25px;
+    font-family: serif;
+    font-weight: bold;
+    color: white;
+    font-style: italic;
+    padding-left: 75px;
+    padding-top: 5px;
+
+}
+.red button:hover{
+    background-image: linear-gradient(to left, rgba(255, 0, 0, 0.478), rgba(255, 255, 255, 0.034),rgba(255, 0, 0, 0.264));
+    cursor: pointer;
+    }
+    #img{
+        height: 45%;
+        position: relative;
+        left: 10%;
+        top: 5%;
+        
+
+    }
+    .green{
+        height: 310px;
+        width: 210px;
+        background-color: #A2070B;;
+        position: relative;
+        left: 32%;
+        top: -133%;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px black;
+
+        
+    }
+    .navy{
+        height: 80px;
+        width: 100%;
+
+    }
+    .navy h3{
+        height: 40px;
+        font-style: italic;
+        font-size: 30px;
+        padding-left: 73px;
+        font-family: serif;
+        color: whitesmoke;
+
+    }
+    .navy h5{
+        height: 40px;
+        font-size: 20px;
+        padding-left: 73px;
+        font-family: gilroy;
+        color: whitesmoke;
+    }
+    .cad{
+        height: 103px;
+        width: 100%;
+        background-color: beige;
+        margin-bottom: 5px;
+        display: flex;
+    }
+    .cad img{
+        height: 85%;
+    }
+    .cad h3{
+        font-size: 20px;
+        font-family: gilroy;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .crab{
+        height: 103px;
+        width: 100%;
+        background-color: beige;
+    }
+    .crab img{
+        height: 100%;
+        display: flex;
+        left: -12%;
+        position: relative;
+    }
+    .crab h4{
+        font-size: 20px;
+        font-family: gilroy;
+        margin-left: 10px;
+        margin-top: 10px;
+        position: relative;
+        top: -95%;
+    
+        left: 40%;
+    }
+#tweet img{
+
+    height: 30%;
+    position: absolute;
+    left: 2%;
+top: 130%;
+}
+#tweets img{
+    
+    height: 30%;
+    position: absolute;
+    left: 35%;
+top: 130%;
+}
+#meet img{
+    height: 30%;
+    position: absolute;
+    left: 15%;
+top: 165%;
+}
+#video{
+    position: absolute;
+    top: 120%;
+    left: 65%;
+    height: 50%;
+    width: 300px;
+    border-radius: 5px;
+}
+
+#kfcian{
+    height: 70px;
+    width: 100%;
+    background-color: #A2070B;
+    display: flex;
+}
+#kfcian h3{
+    font-size: 60px;
+    font-family: serif;
+    font-weight: 600;
+    color: white;
+    font-style: italic;
+    padding-left: 185px;
+
+}
+#kfcian i{
+    color: white;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 130px;
+    margin: -10px;
+    cursor: pointer;
+}
+#kfcian h5{
+font-size: 20px;
+color: white;
+justify-content: center;
+align-items: center;
+padding-left: 20px;
+padding-top: 22px;
+}
+#kiran{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+    font-weight: 100; 
+}
+#kfcian p{
+    
+    font-size: 15px;
+    font-family: gilroy;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 25px;
+    font-weight: 400;
+}
+#same{
+    padding-left: 80px;
+    font-size: 20px;
+}
+#kick{
+     background-color: #000;
+    height: 115%;
+    width: 100%;
+    display: flex;
+}
+#h3 h3{
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+    font-family: gilroy;
+    display: flex;
+    padding-left: 250px;
+}
+#h3 h4{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.748);
+    font-weight: 100;
+    font-family: gilroy;
+    display: flex;
+    padding-left: 250px;
+}
+#h4{
+    display: flex;
+}
+#h4 h3{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.748);
+    font-weight: 100;
+    font-family: gilroy;
+    display: flex;
+padding-top: 75px;
+padding-left: 50px;
+}
+#sent h2{
+    display: flex;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: gilroy;
+    padding-left: 100px;
+}
+
+#sent h4{
+    padding-left: 100px;
+    display: flex;
+    color: rgba(255, 255, 255, 0.69);
+    font-size: 20px;
+    font-weight: 100;
+    font-family: gilroy;
+}
+#gur{
+    position: relative;
+    height: 90%;
+left: 80%;
+box-shadow: 5px 5px 5px black;
+}
+#bur{
+    top: 268%;
+    right: 85%;
+    position: absolute;
+    height: 105%;
+    transform: rotateX(0deg);
+    transform: rotateY(0deg);
+    transform: rotateZ(0deg);
+}
+#bur:hover{
+   transform: rotate3d(62000000deg);
+   transform: rotate(360deg);
+    transition: cubic-bezier(0.19, 1, 0.22, 1)15s;
+    cursor: pointer;
+}
